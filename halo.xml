@@ -4,6 +4,7 @@
            fetch="https://github.com"
            revision="lineage-20" />
 
+  <project path="kernel/lenovo/halo" name="lenovo-sm8475-devs/android_kernel_lenovo_halo" clone-depth="1" remote="github-priv" />
   <project path="device/lenovo/halo" name="lenovo-sm8475-devs/android_device_lenovo_halo" remote="github-priv" />
   <project path="device/lenovo/halo-kernel" name="lenovo-sm8475-devs/android_device_lenovo_halo-kernel" remote="github-priv" />
   <project path="vendor/lenovo/halo" name="lenovo-sm8475-devs/android_vendor_lenovo_halo" remote="github-priv" />
