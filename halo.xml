@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github-priv"
-           fetch="https://github.com"
-           revision="lineage20" />
+           fetch="https://github.com" />
   
-  <project path="device/lenovo/halo" name="Neroxd10/android_device_lenovo_halo" remote="github-priv" revision="lineage20" />
-  <project path="device/lenovo/halo-kernel" name="Neroxd10/android_device_lenovo_halo-kernel" remote="github-priv" revision="lineage20" />
-  <project path="vendor/lenovo/halo" name="Neroxd10/android_vendor_lenovo_halo" remote="github-priv" revision="lineage20" />
+  <project path="device/lenovo/halo" name="Neroxd10/device_lenovo_halo" remote="github-priv" revision="alphadroid" />
+  <project path="device/lenovo/halo-kernel" name="Neroxd10/device_lenovo_halo-kernel" remote="github-priv" revision="lineage20" />
+  <project path="vendor/lenovo/halo" name="Neroxd10/vendor_lenovo_halo" remote="github-priv" revision="main" />
   <project path="kernel/lenovo/halo" name="Neroxd10/android_kernel_lenovo_halo" remote="github-priv" revision="lineage-21" />
+  <project path="vendor/lineage-priv/keys" name="Neroxd10/vendor_lineage-priv_keys" remote="github-priv" revision="main" />
+  <project path="hardware/Motorola/Dolby" name="Neroxd10/hardware_motorola_dolby" remote="github-priv" revision="main" />
   
 </manifest>
